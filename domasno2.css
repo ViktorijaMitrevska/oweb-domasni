@@ -1,0 +1,40 @@
+table{
+    background-color:rgb(197, 172, 159);
+    border: 2px solid rgb(88, 78, 73);
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 4px gray;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-style: oblique;
+    color: chocolate;
+}
+
+th{
+    border: none;
+    font-size: 25px;
+    font-style: italic;
+}
+
+tr{
+    border:none;
+    height: 35px;
+    width: 50px;
+}
+
+td{
+    border: none;
+    
+}
+textarea{
+    background-color: rgb(215, 209, 202);
+}

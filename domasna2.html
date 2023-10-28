@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="domasno2.css">
+        <title>Domashna zadaca 2</title>
+    </head>
+
+    <body>
+        <h1>Order your desired pizza here</h1>
+        <table border="1">
+            <form method="post" action="#">
+            <caption>Your order is:</caption>
+
+            <thead>
+                <th colspan="2">
+                    <strong>Pizza Shop 2.0</strong>
+                </th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <label>
+                        <input name="name" type="text" size="25" maxlength="30">
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Pizza Toping</td>
+                    <td>
+                        <label>
+                        <input type="radio" value="supreme" name="topping">Supreme
+                        </label><br>
+                        <label>
+                            <input type="radio" value="vegatarian" name="topping">Vegetarian
+                        </label><br>
+                        <label>
+                            <input type="radio" value="hawaiian" name="topping">Hawaiian
+                        </label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Pizza Sauce</td>
+                    <td>
+                        <label>
+                            <select name="sauce" >
+                                <option selected>Tomato</option>
+                                <option>Barbecue</option>
+                                <option>Mustard</option>
+                                <option>Mayo</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Optional Extras</td>
+                    <td>
+                        <label>
+                            <input name="extras" type="checkbox" value="extra cheese">Extra Cheese
+                        </label>
+                        <label>
+                            <input name="extras" type="checkbox" value="gluten free base">Gluten Free Base
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <label>Delivery Instruction:<br>
+                            <textarea name="Instructions" rows="4" cols="50"></textarea>
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Send my order">
+                    </td>
+                </tr>
+
+            </tbody>
+            </form>
+        </table>
+
+        <h4>Made by: Viktorija Mitrevska 151/2021</h4>
+
+    </body>
+</html>
