@@ -12,38 +12,111 @@
         </div>
         <nav> 
             <ul>
-                <a href="#home"><li>ДОМА</li></a>
-                <a href="#products"><li>ПРОИЗВОДИ</li></a>
-                <a href="#blog"><li>БЛОГ</li></a>
-                <a href="#forus"><li>ЗА НАС</li></a>
+                <a href="proektna1.html#home"><li>ДОМА</li></a>
+                <a href="proektna1.html#proizvodi"><li>ПРОИЗВОДИ</li></a>
+                <a href="proektna1.html#blog"><li>БЛОГ</li></a>
+                <a href="proektna1.html#forus"><li>ЗА НАС</li></a>
                 <a href="#contact"><li>КОНТАКТ</li></a>
-                <a href="#login"><li>НАЈАВИ СЕ</li></a>
+                <a href="review.html#review"><li>АНКЕТА</li></a>
+                <a href="login.html#login"><li>НАЈАВИ СЕ</li></a>
             </ul>
         </nav>
-        <div id="prsten1">
-            <h3>Прстен1</h3>
-            <img src="/sliki/prsten1.jpg" alt="prsten1">
-            <h3>Опис на производот:</h3>
-            <p></p>
+        <div class="proizvod">
+            <div class="del1">
+                <h2 >Прстен1</h2>
+                <img src="/sliki/prsten1.jpg" alt="prsten1">
+                <button onclick="updateText1()" id="ring1">Click me</button>
+            </div>
+            <div class="del2">
+                <h3>Опис на производот:</h3>
+                <p>
+                    Може да го носите независно од сопствениот стил,
+                   „заплетканиот“ прстен е разигран и класичен во 
+                   неговиот дизајн,а преку приказот на круг од брилијантен
+                   исечен рубин од двете страни на прстенот се движи 
+                   додека се движите и вие.
+                </p>
+               <a href="order.html"><button id="naracaj">Нарачај тука!</button></a>
+            </div>
+            
         </div>
-        <div id="prsten2">
-            <h3>Прстен2</h3>
-            <img src="/sliki/prsen2.avif" alt="prsten2">
-            <h3>Опис на производот:</h3>
-            <p></p>
+        <div class="proizvod">
+            <div class="del1">
+                <h2>Прстен2</h2>
+                <img src="/sliki/prsten2.png" alt="prsten2">
+                <button onclick="updateText2()" id="ring2">Click me</button>
+            </div>
+            
+            <div class="del2">
+                <h3>Опис на производот:</h3>
+                <p>
+                    Дизајниран да се носи за да создаде свој уникатен 
+                   изглед.Прстен кој не може а да не предизвика
+                   чувства на стил и гламур.Двата прстени совршено 
+                   се вклопуваат и претставуваат двојност и хармонија
+                   во природата и во нас.
+                </p>
+                   <a href="order.html"><button id="naracaj">Нарачај тука!</button></a>
+            </div>
         </div>
-        <div id="prsten3">
-            <h3>Прстен3</h3>
-            <img src="/sliki/prsten3.avif" alt="prsten3">
-            <h3>Опис на производот:</h3>
-            <p></p>
+        <div class="proizvod">
+            <div class="del1">
+                <h2>Прстен3</h2>
+                <img src="/sliki/prsten3.jpg" alt="prsten3">
+                <button onclick="updateText3()" id="ring3">Click me</button>
+            </div>
+            <div class="del2">
+                <h3>Опис на производот:</h3>
+                <p>
+                Создадете изглед инспириран од симболите за 
+                 природата со овој лимитиран прстен 18-каратна 
+                 жолта позлата.Нека ваквиот дизајн им одаде почест
+                 на новите почетоци и на напредокот.Создадете 
+                 сопствен изглед со овој разновиден прстен.
+                </p>
+                <a href="order.html"><button id="naracaj">Нарачај тука!</button></a>
+            </div>   
         </div>
-        <div id="prsten4">
-            <h3>Прстен4</h3>
-            <img src="/sliki/prsten4.jpg" alt="prsten4">
-            <h3>Опис на производот:</h3>
-            <p></p>
+        <div class="proizvod">
+            <div class="del1">
+                <h2>Прстен4</h2>
+                <img src="/sliki/prsten4.jpg" alt="prsten4">
+                <button onclick="updateText4()" id="ring4">Click me</button>
+            </div>
+            <div class="del2">
+                <h3>Опис на производот:</h3>
+                <p> 
+                   Инспириран од кралските круни од историјата, овој
+                   прстен со 14к позлата ќе им даде на секојдневните 
+                   комбинации кралски дух. Oвој прстен во облик на шеврон 
+                   ќе биде круна на секоја комбинација.
+                </p>
+                <a href="order.html"><button id="naracaj">Нарачај тука!</button></a>
+                
+            </div>
         </div>
+        <div class="stars"> 
+            <h1>Оценете ги производите!</h1> 
+            <br /> 
+            <span onclick="rate(1)" 
+                  class="star">★ 
+            </span> 
+            <span onclick="rate(2)" 
+                  class="star">★ 
+            </span> 
+            <span onclick="rate(3)" 
+                  class="star">★ 
+            </span> 
+            <span onclick="rate(4)" 
+                  class="star">★ 
+            </span> 
+            <span onclick="rate(5)" 
+                  class="star">★ 
+            </span> 
+            <h3 id="output"> 
+                  Rating is: 0/5 
+              </h3> 
+        </div> 
         <footer id="contact">
             <div>
                 <h1>Контакт:</h1>
@@ -55,10 +128,11 @@
                 <p><strong>Град:</strong>xxx</p>
             </div>
             <div id="social">
-                <h2>Следине на нашите социјални мрежи:</h2>
+                <h2>Следете не на нашите социјални мрежи:</h2>
                 <img id="image1" src="/sliki/download.png" alt="Facebook">
                 <img id="image2" src="/sliki/social-instagram-icon-512x512-6mp2zfl3.png" alt="Instagram">
             </div>
         </footer>
+        <script src="proektna1.js"></script>
     </body>
 </html>

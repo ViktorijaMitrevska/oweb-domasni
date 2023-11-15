@@ -12,7 +12,6 @@ body{
     font-weight: lighter;
     background-color: #4B533A;
     color:white;
-    
 }
 nav{
     background-color: #C3C6B1;
@@ -146,4 +145,79 @@ height: 400px;
 #contact #social #image2{
     height: 60px;
     width: 60px;
+}
+#forus{
+    display: flex;
+    justify-content: space-evenly;
+}
+#forus #forus1{
+    position: relative;
+    border: 3px solid #4B533A;
+    background-color: #EEC9B7;
+    width: 45%;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 7%;
+}
+#forus #forus2{
+    position: relative;
+    border: 3px solid #4B533A;
+    background-color: #EEC9B7;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    height: 550px;
+}
+#forus2 img{
+    width: 350px;
+    height: 500px;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+#gallery{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: #EEC9B7;
+    border: 3px solid #4B533A;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.blog1 img{
+    position: relative;
+    width: 350px;
+    height: 400px;
+}
+#comment-button1{
+    background-color: grey;
+    padding: 5px;
+    margin-top: 2%;
+}
+#comment-button2{
+    background-color: grey;
+    padding: 5px;
+    margin-top: 2%;
+}
+#comment-button3{
+    background-color: grey;
+    padding: 5px;
+    margin-top: 2%;
+}
+#like-button1{
+    background-color: grey;
+    padding: 5px;
+}
+#like-button2{
+    background-color: grey;
+    padding: 5px;
+}
+#like-button3{
+    background-color: grey;
+    padding: 5px;
 }

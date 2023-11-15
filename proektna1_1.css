@@ -12,7 +12,6 @@ body{
     font-weight: lighter;
     background-color: #4B533A;
     color:white;
-    
 }
 nav{
     background-color: #C3C6B1;
@@ -54,4 +53,242 @@ nav ul a li{
 #contact #social #image2{
     height: 60px;
     width: 60px;
+}
+.proizvod .del1{
+    position: relative;
+    background-color: #EEC9B7;
+    width: 60%;
+    border: 3px solid #4B533A;
+    margin-left: 10%;
+    margin-top: 2%;
+    padding-top:15px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 2%;
+}
+.proizvod .del2{
+    position: relative;
+    background-color: #EEC9B7;
+    border: 3px solid #4B533A;
+    width: 40%;
+    height: 350px;
+    padding: 40px;
+    margin-left: 20%;
+    padding-top: 15px;
+    padding-right: 22px;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
+.proizvod{
+    display: flex;
+    justify-content: center;
+}
+.del1 h2{
+    position: relative;
+    background-color: #4B533A;
+    color: white;
+    font-size: 20px;
+    width: 83%;
+    text-align: center;
+    margin-left: 10%;
+    font-weight: lighter;
+}
+.del1 img{
+    position: relative;
+    margin-left: 10%;
+    width: 400px;
+    height: 500px;
+}
+#naracaj{
+    position: relative;
+    margin-top: 30%;
+    padding: 10px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#ring1{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#ring2{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#ring3{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#ring4{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#necklace1{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#necklace2{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#necklace3{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#necklace4{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#earrings1{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#earrings2{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#earrings3{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+#earrings4{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20% ;
+    padding: 5px;
+    width: 60%;
+    background-color: #C3C6B1;
+    border: 1px solid #4B533A;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+.stars { 
+    
+    background: #EEC9B7; 
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    width: 35%; 
+    border-radius: 10px;
+    border:3px solid #4B533A;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    padding-left: 100px;
+    margin-bottom: 2%;
+    margin-left: 455px;
+    margin-top: 2%;
+}  
+.star { 
+    font-size: 10vh; 
+} 
+.one { 
+    color:  rgb(251, 255, 120);
+} 
+.two { 
+    color:  rgb(251, 255, 120);
+}  
+.three { 
+    color: rgb(251, 255, 120); 
+}  
+.four { 
+    color:  rgb(251, 255, 120); 
+}  
+.five { 
+    color:  rgb(251, 255, 120);
 }
